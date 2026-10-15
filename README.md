@@ -1,3 +1,5 @@
+Backend + AI integration: see [team setup and Frontend handoff](docs/TEAM-INTEGRATION.md). Backend source is in backend/; AI source is in ai-server/. Private environment files and provider keys are not included.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

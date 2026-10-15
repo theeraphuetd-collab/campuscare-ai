@@ -1,0 +1,5 @@
+project_id = "campuscare-ai"
+
+[functions.campuscare]
+# Every request is verified in the handler with auth.getUser(). Supports new signing keys.
+verify_jwt = false

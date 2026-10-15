@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --env-file=.env --allow-env --allow-net supabase/functions/campuscare/index.ts",
+    "test": "deno test supabase/functions/campuscare/",
+    "check": "deno check supabase/functions/campuscare/index.ts scripts/check-setup.ts scripts/test-ai.ts",
+    "setup:check": "deno run --env-file=.env --allow-env scripts/check-setup.ts",
+    "ai:test": "deno run --env-file=.env --allow-env --allow-net scripts/test-ai.ts"
+  }
+}
